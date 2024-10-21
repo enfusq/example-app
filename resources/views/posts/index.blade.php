@@ -13,7 +13,7 @@
                 Title: {{ $post->title }} <br>
                 Content: {{ $post->content }} <br>
             </li>
-            <a href="posts/{{ $post->id }}">View post</a>
+            <a href="/posts/{{ $post->id }}">View post</a>
         @endforeach
     </ul>
 </body>
